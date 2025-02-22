@@ -18,7 +18,7 @@ def classify_waste(image):
 
 st.title("SEBRS - Smart E-Bio Recycler System")
 
-uploaded_file = st.file_uploader("Upload an E-Waste Image", type=["jpg", "png", "jpeg"])
+uploaded_file = st.file_uploader( type=["jpg", "png", "jpeg"])
 
 if uploaded_file is not None:
     image_path = "uploaded_image.jpg"
